@@ -422,7 +422,7 @@ footer ul {
     
     .key-numbers .key-num {
         width: 30%;
-        max-width: 200px;
+        max-width: 210px;
         text-align: left;   
     }
 
@@ -511,6 +511,12 @@ footer ul {
         flex-direction: row-reverse;
     }
 
+    /* Key numbers */
+
+    .key-numbers .key-num span {
+        font-size: 3em;
+    }
+
     /* CTA section */
 
     .cta-section .buttons {
@@ -571,6 +577,10 @@ footer ul {
 
     .footer-navs ul {
         flex-basis: 0;
+    }
+
+    .social-links i {
+        font-size: 1.5em;
     }
 
 }
